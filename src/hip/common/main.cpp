@@ -11,7 +11,7 @@
 #include <cstdlib>
 
 //#include <cuda.h>
-#include "hip_runtime.h"
+#include <hip/hip_runtime.h>
 
 #include "ResultDatabase.h"
 #include "OptionParser.h"

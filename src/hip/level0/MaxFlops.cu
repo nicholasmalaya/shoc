@@ -4,7 +4,7 @@
 #include "OptionParser.h"
 #include "ProgressBar.h"
 #include "Utility.h"
-#include "hip_runtime.h"
+#include <hip/hip_runtime.h>
 // Forward Declarations for benchmark kernels
 __global__ void    MAddU(hipLaunchParm lp, float *target, float val1, float val2);
 __global__ void MulMAddU(hipLaunchParm lp, float *target, float val1, float val2);

@@ -2,7 +2,7 @@
 #include <math.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include "hip_runtime_api.h"
+#include <hip/hip_runtime_api.h>
 #include "cudacommon.h"
 #include "OptionParser.h"
 #include "ResultDatabase.h"
